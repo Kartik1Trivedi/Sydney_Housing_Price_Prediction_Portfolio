@@ -261,6 +261,74 @@ Sydney_Housing_Price_Prediction_Portfolio/
 │   └── Streamlit_app3.png
 
 ## Installation Instructions
+#### 1. Clone the repository
+
+Clone the repository to your local machine using Git:
+
+```bash
+git clone https://github.com/Kartik1Trivedi/Sydney_Housing_Price_Prediction_Portfolio.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd Sydney_Housing_Price_Prediction_Portfolio
+```
+
+#### 2. Create a virtual environment
+
+It is recommended to use a virtual environment to keep the project's dependencies isolated.
+
+On Windows:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+On macOS/Linux:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+#### 3. Install the required dependencies
+
+Install the project's Python dependencies using the provided `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+#### 4. Run the Streamlit application
+
+Start the Streamlit application using:
+
+```bash
+streamlit run app.py
+```
+
+The application will open in your default web browser. If it does not open automatically, use the local URL displayed in the terminal.
+
+#### 5. Run the Jupyter Notebook
+
+The analysis and model development notebook is located in the `Notebook/` directory.
+
+To launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Then open:
+
+```text
+Notebook/Sydney_Housing_Price_Prediction.ipynb
+```
+
+The repository also contains the datasets, trained model, and project images required for the analysis and application.
+
 
 ## Limitations
 For this project, major limitations include:
