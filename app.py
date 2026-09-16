@@ -25,7 +25,7 @@ st.set_page_config(
 # Loading trained model
 # ---------------------------------------------------------
 
-model = joblib.load("Model\\property_price_model.pkl")
+model = joblib.load("Model/property_price_model.pkl")
 
 
 # ---------------------------------------------------------
